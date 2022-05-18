@@ -98,6 +98,17 @@ table {
     width: 940px;
 }
 
+.main{
+    display: flex;
+    margin-top: 60px;
+}
+
+.products{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
 .leftbar li{
     width: 300px;
     height: 65px;   
@@ -107,10 +118,6 @@ table {
     text-align: center;
     line-height: 65px;   /* 設定垂直置中 */ 
 }  
-
-.leftbar{
-    margin-top: 60px;
-}
 
 #top{
     background: #3F5D45 0% 0% no-repeat padding-box;
