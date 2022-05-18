@@ -134,13 +134,38 @@ table {
 .pnandprice{
     width: 300px;
     height: 65px;
-    text-align: center;
     line-height: 65px;
     /* display: inline; */
-    border: 1px solid #EAF0ED;
+    border-right: 1px solid #EAF0ED; 
+    border-left: 1px solid #EAF0ED; 
+    border-bottom: 1px solid #EAF0ED; 
 }
 
-.pnandprice p{
+.pn{
     display: inline;
+    width: 173px;
+    height: 56px;
+    font: normal normal 300 20px/20px PingFang TC;
+    color: #3F5D45;
+    text-align: left;
+    padding-right: 33px;
+    padding-left: 33px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-right: 1px solid #EAF0ED; 
+    
 
+}
+
+.price{
+    display: inline;
+    width: 127px;
+    height: 56px;
+    color: #3F5D45;
+    font: normal normal 600 20px/24px PingFang TC; 
+    text-align: center; 
+    padding-right: 20px;
+    padding-left: 25px;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
