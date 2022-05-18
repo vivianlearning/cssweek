@@ -107,7 +107,7 @@ table {
     margin-right: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
-    
+
 }
 .leftbar li{
     width: 300px;
@@ -129,4 +129,18 @@ table {
 
 #second{
     background: #EAF0ED 0% 0% no-repeat padding-box;
+}
+
+.pnandprice{
+    width: 300px;
+    height: 65px;
+    text-align: center;
+    line-height: 65px;
+    /* display: inline; */
+    border: 1px solid #EAF0ED;
+}
+
+.pnandprice p{
+    display: inline;
+
 }
