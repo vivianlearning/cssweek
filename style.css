@@ -103,11 +103,10 @@ table {
     margin-top: 60px;
 }
 
-.products{
+.products{ 
     margin-right: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
-
 }
 .leftbar li{
     width: 300px;
@@ -131,6 +130,16 @@ table {
     background: #EAF0ED 0% 0% no-repeat padding-box;
 }
 
+.products ul{
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.products li{
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
 #img{
     vertical-align: middle;
     position: relative;
@@ -147,7 +156,7 @@ table {
     border-bottom: 1px solid #EAF0ED; */
 }
 
-.pn{
+.pn{ /* pn = product name(產品名稱) */
     display: inline;
     width: 173px;
     font: normal normal 300 20px/20px PingFang TC;
@@ -171,7 +180,7 @@ table {
     padding-top: 14px;
     padding-bottom: 14px;
 }
-.addp{
+.addp{ /* addp = add product(加入購物車) */
     width: 300px;
     height: 65px;
     background: #EAF0ED 0% 0% no-repeat padding-box;
@@ -183,7 +192,7 @@ table {
     line-height: 65px;
 }
 
-.pofday{
+.pofday{ /* pofday = product of day(每日精選) */
     display: flex;
     width: 36px;
     height: 107px;
@@ -203,3 +212,20 @@ table {
     top: 686px;
     left: 620px;
 }
+
+.page ul{
+    display: flex;
+}
+
+
+.page li{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #EAF0ED;
+    text-align: center;
+    font: normal normal 300 20px/20px PingFang TC;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #3F5D45;
+}
+
