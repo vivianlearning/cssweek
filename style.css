@@ -103,11 +103,15 @@ table {
     margin-top: 60px;
 }
 
-.products{ 
-    margin-right: 20px;
+.right{ /* right-side content of main */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     margin-left: 20px;
-    margin-bottom: 20px;
+    align-items: flex-end;
+    margin-bottom: 40px;
 }
+
 .leftbar li{
     width: 300px;
     height: 65px;   
@@ -130,15 +134,17 @@ table {
     background: #EAF0ED 0% 0% no-repeat padding-box;
 }
 
-.products ul{
+.products{
+    width: 662px;
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+
 }
 
-.products li{
+ .products li{
     margin-bottom: 20px;
     margin-right: 20px;
-}
+} 
 
 #img{
     vertical-align: middle;
@@ -213,10 +219,10 @@ table {
     left: 620px;
 }
 
-.page ul{
+.page ul{ 
     display: flex;
-}
-
+    margin-right: 35px;
+} 
 
 .page li{
     width: 60px;
@@ -227,5 +233,52 @@ table {
     font-size: 20px;
     letter-spacing: 0px;
     color: #3F5D45;
+    line-height: 60px;
 }
 
+.page img{ /* 微調arrow icon位置，不知道為何沒辦法跟page li的文字一起垂直置中 */
+    margin-top: 18px;
+}
+
+#one{
+    background: #3F5D45 0% 0% no-repeat padding-box;
+    border: 1px solid #3F5D45;
+    font: normal normal 600 20px/20px PingFang TC;
+    letter-spacing: 0px;
+    color: #EAF0ED;
+    line-height: 60px;
+}
+
+
+.inform{
+    width: 1024px;
+    height: 116px;
+    background: #3F5D45 0% 0% no-repeat padding-box;
+    display: flex;
+    padding-right: 122px;
+    padding-left: 122px;
+}
+
+.left-inform{
+    display: flex;
+    margin-top: 38px;
+    margin-bottom: 38px;
+    justify-content: center;
+}
+
+.left-inform img{
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+
+}
+
+.left-inform p{
+    width: 216px;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+    font: normal normal normal 24px/29px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #EAF0ED;
+}
