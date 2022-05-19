@@ -255,8 +255,8 @@ table {
     height: 116px;
     background: #3F5D45 0% 0% no-repeat padding-box;
     display: flex;
-    padding-right: 122px;
-    padding-left: 122px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .left-inform{
@@ -264,12 +264,13 @@ table {
     margin-top: 38px;
     margin-bottom: 38px;
     justify-content: center;
+    align-items: center;
 }
 
 .left-inform img{
-    width: 24px;
-    height: 24px;
-    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    padding-right: 20px;
 
 }
 
@@ -281,4 +282,39 @@ table {
     font: normal normal normal 24px/29px Helvetica Neue;
     letter-spacing: 0px;
     color: #EAF0ED;
+}
+
+.right-inform{
+    width: 380px;
+    height: 56px;
+    background: #EAF0ED ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#mail{
+    width: 24px;
+    height: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+}
+
+.box{
+    width: 64px;
+    height: 56px;
+    background: #FFE180;
+    position: absolute;
+    top: 0px;
+    right:0px;
+}
+
+#arrowfward{
+    width: 16px;
+    height: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 24px;
+    padding-left: 24px;
 }
