@@ -134,22 +134,27 @@ table {
     background: #EAF0ED 0% 0% no-repeat padding-box;
 }
 
-.products{
-    width: 662px;
+.products ul{
+    width: 665px;
+    width: 665px;
     display: flex;
     flex-wrap: wrap;
-
 }
 
- .products li{
+.card1 .img, .card2 .img, .card3 .img, .card3 .img, .card4 .img, .card5 .img, .card6 .img{
+    vertical-align: middle;
+}
+
+.card1, .card2 , .card3 , .card4 , .card5 , .card6{
+    position: relative ;
     margin-bottom: 20px;
     margin-right: 20px;
-} 
+    width: 300px;
+    
 
-#img{
-    vertical-align: middle;
-    position: relative;
+      /* 修改div為行列元素，才能併排 */
 }
+
 .pnandprice{
     width: 300px;
     height: 56px;
@@ -209,14 +214,14 @@ table {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 677px;
-    left: 385px;
+    top: 0px ; 
+    left: 30px ;
 }
 
-#favorite{
+.favorite{
     position: absolute;
-    top: 686px;
-    left: 620px;
+    top: 8px ;
+    right: 30px;
 }
 
 .page ul{ 
@@ -386,5 +391,5 @@ table {
 }
 
 #rightp{
-    text-indent:12px;
+    text-indent:12px; /* 文字縮排  */
 }
